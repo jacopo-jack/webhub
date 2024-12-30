@@ -1,7 +1,7 @@
 {
     "short_name": "Hub",
     "name": "Web App Hub",
-    "start_url": "/index.html",
+    "start_url": "https://jacopo-jack.github.io/webhub/",
     "icons": [
       {
         "src": "icon.png",
