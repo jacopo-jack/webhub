@@ -11,18 +11,7 @@
         const manifest_url= "https://raw.githubusercontent.com/jacopo-jack/webhub/refs/heads/main/manifest.json";
         if (manifest_url && manifest_url.length > 0) {
   console.log("Manifest path trovato!");
-
-  // Puoi anche registrare il Service Worker, se lo desideri
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js', { scope: '/' })
-      .then(function(registration) {
-        console.log('Service Worker registrato con successo:', registration);
-      })
-      .catch(function(error) {
-        console.log('Errore nel registrare il Service Worker:', error);
-      });
-  }
-} else {
+            else {
   // Se il path del manifest non è valido o mancante, fai il redirect alla pagina di fallback
   window.location.href = "https://jacopo-jack.github.io/webhub/";
 }
