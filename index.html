@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="framework/css/base.css">
     <!---forse trova con questo script la pagina--->
     <script>
+        //controllo percorsi manifest e inde.html(ui)
         const manifest_url= "https://raw.githubusercontent.com/jacopo-jack/webhub/refs/heads/main/manifest.json";
+        const ui_url = "https://jacopo-jack.github.io/webhub/";
         if (manifest_url && manifest_url.length > 0) {
-  console.log("Manifest path trovato!");
+              console.log("Manifest path trovato!");
+        }
+        if (ui_url && ui_url.length > 0) {
+              console.log("Manifest path trovato!");
+        }
   // Se il path del manifest non è valido o mancante, fai il redirect alla pagina di fallback
   window.location.href = "https://jacopo-jack.github.io/webhub/";
     </script>
