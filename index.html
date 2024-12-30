@@ -6,6 +6,10 @@
     <link rel="manifest" href="/manifest.json">
     <title>Web App Hub</title>
     <link rel="stylesheet" href="framework/css/base.css">
+    <!---chrome e edge non trovano utilities.css vai di script-->
+    <script>
+        //controllo percorsi css
+    </script>    
     <!---forse trova con questo script la pagina--->
     <script>
         //controllo percorsi manifest e inde.html(ui)
@@ -17,8 +21,6 @@
         if (ui_url && ui_url.length > 0) {
               console.log("Manifest path trovato!");
         }
-  // Se il path del manifest non è valido o mancante, fai il redirect alla pagina di fallback
-  window.location.href = "https://jacopo-jack.github.io/webhub/";
     </script>
 </head>
 <body>
