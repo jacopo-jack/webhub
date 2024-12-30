@@ -1,0 +1,21 @@
+/*classi per mimare form senza loro uso*/
+.forms{
+    width: 80%; /* Adatta alla larghezza desiderata */
+    max-width: 600px;
+    height: auto; /* Rimuovi l'altezza fissa per permettere più righe */
+    margin-top: 10%;
+    padding: 20px;
+    border: 2px solid; /* Puoi specificare un colore, se necessario */
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: 256px 256px;
+    grid-template-rows: 40px 4em 40px;
+    gap: 10px; /* Spazio tra le icone */
+    justify-content: center; /* Centra le colonne nella griglia */
+    align-items: center; /* Centra il contenuto delle celle */
+}
+.form-icon{
+    text-align: center;
+    width: 45%;
+    display: grid;
+}

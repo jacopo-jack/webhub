@@ -1,0 +1,44 @@
+/* minimale e a griglia */
+@import url('framework/css/utilities.css');
+html{
+   text-align: justify;
+   clear: both;
+   font-size:large;
+}
+body{
+	text-align:center;
+	font-size:large;  
+   
+}
+img{
+    display: grid;
+    height: 256px;
+    width:  256px;
+}
+header{
+    background-color: aqua;
+}
+#grid{
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 256px 256px;
+}
+.title{
+    text-align: center;
+}
+.button{
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+	font-size:large;
+	color: black;
+}
+footer{
+    background-color: aqua;
+	text-align:center;
+	font-size:lagre;
+}
+

@@ -1,0 +1,26 @@
+{
+    "short_name": "Hub",
+    "name": "Web App Hub",
+    "start_url": "/index.html",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "related_applications": [
+      {
+        "platform": "web",
+        "url": "https://web.skype.com/"
+      },
+      {
+        "platform": "web",
+        "url": "https://mail.google.com/"
+      }
+    ]
+  }
+  
